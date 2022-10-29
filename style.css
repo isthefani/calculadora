@@ -19,7 +19,7 @@ body {
     display: grid;
 }
 
-.calculadora .value {
+#value {
     position: static;
     grid-column: span 4;
     width: 240px;

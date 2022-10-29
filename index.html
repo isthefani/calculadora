@@ -9,7 +9,7 @@
 </head>
 <body>
     <form class="calculadora" name="calc">
-        <input class="value" type="text" name="txt" readonly="">
+        <input id="value" type="text" name="txt" readonly="">
         <span class="num clear" onclick="document.calc.txt.value =' '">C</span>
         <span class="num" onclick="document.calc.txt.value +='/'">/</span>
         <span class="num" onclick="document.calc.txt.value +='*'">*</span>
@@ -28,6 +28,7 @@
         <span class="num" onclick="document.calc.txt.value +='00'">00</span>
         <span class="num" onclick="document.calc.txt.value +='.'">.</span>
         <span class="num equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</span>
+        <script src="script.js"></script>
     </form>
 </body>
 </html>
